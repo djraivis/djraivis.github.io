@@ -1,135 +1,153 @@
-body,
-html {
-    height: 100%
+/*
+|-------------------------------------------------------------------------------
+| Configuration
+|-------------------------------------------------------------------------------
+*/
+/*
+|-------------------------------------------------------------------------------
+| Generic / Reset / Normalize
+|-------------------------------------------------------------------------------
+*/
+body, html {
+  height: 100%;
 }
 
 * {
-    box-sizing: border-box
+  box-sizing: border-box;
 }
 
 body {
-    color: #333;
-    font-size: 14px;
-    min-width: 320px;
-    line-height: 1.5;
-    background: #333;
-    font-family: 'Merriweather', Verdana, serif
+  color: #333333;
+  font-size: 14px;
+  min-width: 320px;
+  line-height: 1.5;
+  background: #333333;
+  font-family: 'Merriweather', Verdana, serif;
 }
 
 a {
-    outline: none;
-    color: #333;
-    text-decoration: none
+  outline: none;
+  color: #333333;
+  text-decoration: none;
 }
 
 h1 {
-    margin: 0;
-    font-size: 18px
+  margin: 0;
+  font-size: 18px;
 }
 
 h2 {
-    margin: 0;
-    font-size: 14px;
-    font-weight: normal
+  margin: 0;
+  font-size: 14px;
+  font-weight: normal;
 }
 
+/*
+|-------------------------------------------------------------------------------
+| Components
+|-------------------------------------------------------------------------------
+*/
 .wrapper {
-    width: 100%;
-    height: 100%;
-    display: table
+  width: 100%;
+  height: 100%;
+  display: table;
 }
 
 .wrapper__content {
-    display: table-cell;
-    vertical-align: middle
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .card {
-    width: 95%;
-    max-width: 320px;
-    margin: 50px auto;
-    position: relative
+  width: 95%;
+  max-width: 320px;
+  margin: 50px auto;
+  position: relative;
 }
 
+/* Profile Card Panel */
 .card__panel {
-    z-index: 2;
-    position: relative;
-    border-radius: 4px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25)
+  z-index: 2;
+  position: relative;
+  border-radius: 4px;
+  background: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
 }
 
 .card__panel__cover {
-    background: url("../img/cover.jpg") 0 0 no-repeat;
-    background-size: cover;
-    margin-bottom: 45px;
-    position: relative;
-    height: 170px;
-    border-top-left-radius: 4px;
-    border-top-right-radius: 4px
+  background: url("../img/cover.jpg") 0 0 no-repeat;
+  background-size: cover;
+  margin-bottom: 45px;
+  position: relative;
+  height: 170px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
 }
 
 .card__panel__avatar {
-    border: 3px solid #fff;
-    position: absolute;
-    display: block;
-    height: 90px;
-    width: 90px;
-    left: 50%;
-    bottom: -45px;
-    margin-left: -45px;
-    border-radius: 50%
+  border: 3px solid #ffffff;
+  position: absolute;
+  display: block;
+  height: 90px;
+  width: 90px;
+  left: 50%;
+  bottom: -45px;
+  margin-left: -45px;
+  border-radius: 50%;
 }
 
+/* Profile Card Info */
 .card__panel__info {
-    padding: 25px 25px 45px;
-    text-align: center
+  padding: 25px 25px 45px;
+  text-align: center;
 }
 
 .card__panel__info__title {
-    margin-bottom: 7px
+  margin-bottom: 7px;
 }
 
 .card__panel__info__subtitle {
-    color: #888
+  color: #888888;
 }
 
+/* Profile Card Links */
 .card__links {
-    text-align: center
+  text-align: center;
 }
 
 .card__links__item {
-    padding: 10px;
-    color: #fff;
-    display: inline-block
+  padding: 10px;
+  color: #ffffff;
+  display: inline-block;
 }
 
 .card__links__item:hover {
-    color: #d5d4d4
+  color: #d5d5d5;
 }
 
+/* Card badges */
 .card__badges {
-    top: 15px;
-    z-index: 1;
-    right: -65px;
-    position: absolute
+  top: 15px;
+  z-index: 1;
+  right: -65px;
+  position: absolute;
 }
 
 .card__badges__img,
 .card__badges__link {
-    display: block
+  display: block;
 }
 
 .card__badges__link {
-    transition: all 300ms ease-in-out
+  transition: all 300ms ease-in-out;
 }
 
 .card__badges__link:hover {
-    opacity: 0.8
+  opacity: 0.8;
 }
 
 @media (max-width: 460px) {
-    .card__badges {
-        display: none
-    }
+  .card__badges {
+    display: none;
+  }
 }
