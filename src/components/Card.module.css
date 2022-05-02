@@ -1,93 +1,93 @@
 /* M A I N  P R O F I L E  I M A G E */
 
 .mainframe {
-  background: grey;
-  border-radius: 10px 10px 0 0;
-  height: 317px;
-  width: 317px;
-  overflow: hidden;
-  transition: background 0.8s;
-  /* box-shadow: 0 70px 63px -70px #5c5a5a; */
+    background: grey;
+    border-radius: 10px 10px 0 0;
+    height: 317px;
+    width: 317px;
+    overflow: hidden;
+    transition: background 0.8s;
+    /* box-shadow: 0 70px 63px -70px #5c5a5a; */
 }
 .container {
-  max-width: 400px;
-  margin: 0 auto;
+    max-width: 400px;
+    margin: 0 auto;
 }
 .card0 {
-  background-image: url('../images/raivis-otm.jpg');
-  background-repeat: no-repeat;
-  background-size: 317px;
-  background-position: 0px -30px;
-  align-self: flex-start;
-  /* filter: drop-shadow(8px 0px 10px rgba(235, 229, 229, 0.534)); */
-  inset: 0;
-  margin: 0 auto;
+    background-image: url('../images/raivis-otm.jpg');
+    background-repeat: no-repeat;
+    background-size: 317px;
+    background-position: 0px -30px;
+    align-self: flex-start;
+    /* filter: drop-shadow(8px 0px 10px rgba(235, 229, 229, 0.534)); */
+    inset: 0;
+    margin: 0 auto;
 }
 .card0:hover {
-  background-image: url('../images/raivis-otm.jpg');
-  background-repeat: no-repeat;
-  background-position: left;
-  background-size: 700px;
-  filter: grayscale(100%);
+    background-image: url('../images/raivis-otm.jpg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 700px;
+    filter: grayscale(100%);
 }
 
 /* B O R D E R */
 .border {
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  /* color: white; */
-  padding: 20px;
-  opacity: 0;
-  height: 310px;
-  width: 310px;
-  /* background: transparent; */
-  border-radius: 10px;
-  position: relative;
-  inset: 4px;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /* color: white; */
+    padding: 20px;
+    opacity: 0;
+    height: 310px;
+    width: 310px;
+    /* background: transparent; */
+    border-radius: 10px;
+    position: relative;
+    inset: 4px;
 
-  transition: border 3s;
-  transition: opacity 0.8s;
+    transition: border 3s;
+    transition: opacity 0.8s;
 }
 .border:hover {
-  border: 1px solid white;
-  opacity: 1;
+    border: 1px solid white;
+    opacity: 1;
 }
 
 .border.iconswrapper {
-  opacity: 0;
-  transition: opacity 2s;
+    opacity: 0;
+    transition: opacity 2s;
 }
 .border.iconswrapper:hover {
-  opacity: 1;
+    opacity: 1;
 }
 
 /* Social Icons Inside Border */
 .icons {
-  position: absolute;
-  fill: #fff;
-  color: #fff;
-  padding: 10px 10px;
-  height: 130px;
-  top: 130px;
-  width: 40px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  gap: 10px;
-  z-index: 0;
+    position: absolute;
+    fill: #fff;
+    color: #fff;
+    padding: 10px 10px;
+    height: 130px;
+    top: 130px;
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    z-index: 0;
 }
 
 .icons a:hover {
-  opacity: 50%;
+    opacity: 50%;
 }
 
 .reactdev {
-  letter-spacing: 8px;
-  color: grey;
-  transition: 0.5s;
+    letter-spacing: 8px;
+    color: grey;
+    transition: 0.5s;
 }
 
 .reactdev:hover {
-  opacity: 60%;
-  color: white;
+    opacity: 60%;
+    color: white;
 }
