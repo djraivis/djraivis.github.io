@@ -1,0 +1,42 @@
+/* R A I V I S  D E V  */
+.whoami {
+  padding: var(--sectionPadding);
+  text-align: center;
+  background-color: var(--experimental);
+  width: 317px;
+  display: flex;
+  align-items: center;
+  align-self: center;
+}
+
+.container {
+  max-width: var(--containerCardMaxWidth);
+  margin: 0 auto;
+}
+
+.name {
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 30px;
+  color: var(--textLight);
+  letter-spacing: 10px;
+}
+
+.occupation {
+  font-size: 14px;
+  line-height: 15px;
+  color: var(--goldenColor);
+  padding-top: 6px;
+}
+
+.link:hover {
+  opacity: 50%;
+}
+
+a.link {
+  display: flex;
+  justify-content: center;
+  font-size: var(--textFontSize);
+  color: var(--secTextLight);
+  padding-top: 6px;
+}

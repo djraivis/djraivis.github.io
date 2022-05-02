@@ -1,0 +1,44 @@
+/* B U T T O N S */
+
+.buttons {
+  text-align: center;
+  background-color: var(--experimental);
+  width: 317px;
+}
+
+.container {
+  max-width: var(--containerCardMaxWidth);
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 118px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+.btn:hover {
+  opacity: 60%;
+}
+
+button > p {
+  margin: 0 5px;
+}
+
+.linkedin {
+  background-color: #5093e2;
+  color: #fff;
+  border: none;
+}
