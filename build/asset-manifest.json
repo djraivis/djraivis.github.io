@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2896bc30.css",
+    "main.js": "/static/js/main.384d0a37.js",
+    "static/media/raivis-otm.jpg": "/static/media/raivis-otm.46f99ab4364cd660afff.jpg",
+    "static/media/instagram-icon.svg": "/static/media/instagram-icon.2de74e23723c7d2c0ff127d864fcc769.svg",
+    "static/media/github-icon.svg": "/static/media/github-icon.a374e035e52b791190a78ce2be6f1ad7.svg",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/twitter-icon.svg": "/static/media/twitter-icon.5afe82cd446e2896fbe272ab12ef79a4.svg",
+    "static/media/linkedin.svg": "/static/media/linkedin.629bf92ee99b6aa01a5c2869b2d41378.svg",
+    "index.html": "/index.html",
+    "static/media/javascript-icon.svg": "/static/media/javascript-icon.081325c6f229605dce15142ddd948d6d.svg",
+    "static/media/facebook-icon.svg": "/static/media/facebook-icon.00c353d38f22d18d3ff0962f9ce66f43.svg",
+    "static/media/mail.svg": "/static/media/mail.341d1e767b26e2540702fb63676d4501.svg",
+    "static/media/css-icon.svg": "/static/media/css-icon.3ec320225ef851ed26cf9fd1c6ebaa54.svg",
+    "static/media/html-icon.svg": "/static/media/html-icon.c1bb84e022ca9d76984d4b943bd678fd.svg",
+    "main.2896bc30.css.map": "/static/css/main.2896bc30.css.map",
+    "main.384d0a37.js.map": "/static/js/main.384d0a37.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2896bc30.css",
+    "static/js/main.384d0a37.js"
+  ]
+}
