@@ -1,5 +1,5 @@
 {
-    "name": "digital-business-card",
+    "name": "djraivis.github.io",
     "version": "0.1.0",
     "private": true,
     "homepage": "https://djraivis.github.io/",
@@ -37,5 +37,8 @@
             "last 1 firefox version",
             "last 1 safari version"
         ]
+    },
+    "devDependencies": {
+        "gh-pages": "^3.2.3"
     }
 }
