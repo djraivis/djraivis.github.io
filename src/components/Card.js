@@ -8,6 +8,7 @@ import styles from "./Card.module.css";
 // ! abckjbcjh
 // * kjabckjbcjk
 // ? I like the colourfull comments this is cool actually
+// * Nice, I love green comments
 
 function Card () {
   return (
@@ -25,7 +26,7 @@ function Card () {
           <div className={styles.iconswrapper}>
             <div className={styles.icons}>
               <a
-                href="https://twitter.com/timlesscoding"
+                href="https://twitter.com/timelesscoding"
                 target="_blank"
                 rel="noopener noreferrer"
               >
