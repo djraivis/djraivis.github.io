@@ -9,7 +9,7 @@ import Skills from './components/Skills'
 // Styles
 import './App.css'
 
-function App() {
+function App () {
   return (
     <div className="digital-business-card">
       <Card />
@@ -19,5 +19,8 @@ function App() {
       <Skills />
     </div>
   )
+
+
+
 }
 export default App
