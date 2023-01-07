@@ -5,10 +5,9 @@ import instagram from "../images/instagram-icon.svg";
 import github from "../images/github-icon.svg";
 import styles from "./Card.module.css";
 
-// ! abckjbcjh
-// * kjabckjbcjk
-// ? I like the colourfull comments this is cool actually
-// * Nice, I love green comments
+//! I love the colourfull, this is cool 🤘  
+//* I love the colourfull, this is cool 🤘 
+//? I love the colourfull, this is cool 🤘 
 
 function Card () {
   return (
