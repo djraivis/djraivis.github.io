@@ -9,11 +9,11 @@ function Whoami() {
         <p className={styles.occupation}>Frontend Developer</p>
         <a
           className={styles.link}
-          href="http://raivis.work"
+          href="https://community.inkdrop.app/note/6554c0e8425877ffa35ab037b8dd8014/note:wyq8eiMug"
           target="_blank"
           rel="noopener noreferrer"
         >
-          raivis.website
+          Curriculum Vitae
         </a>
       </div>
     </div>
