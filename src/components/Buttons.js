@@ -10,7 +10,7 @@ function Buttons () {
     <div className={styles.buttons}>
       <div className={styles.container}>
         <a
-          href="mailto:highdoven@icloud.com"
+          href="mailto:highdoven@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >

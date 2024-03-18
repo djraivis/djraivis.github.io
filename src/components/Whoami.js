@@ -5,7 +5,7 @@ function Whoami() {
   return (
     <div className={styles.whoami}>
       <div className={styles.container}>
-        <p className={styles.name}>Raivis Dev</p>
+        <p className={styles.name}>Raivis</p>
         <p className={styles.occupation}>Frontend Developer</p>
         <a
           className={styles.link}

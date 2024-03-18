@@ -46,7 +46,7 @@ function Card () {
                 <img src={instagram} alt="Instagram" />
               </a>
               <a
-                href="https://djraivis.github.io/"
+                href="https://github.com/djraivis"
                 target="_blank"
                 rel="noopener noreferrer"
               >
