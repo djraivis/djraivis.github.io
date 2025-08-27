@@ -25,7 +25,7 @@ function Card () {
           <div className={styles.iconswrapper}>
             <div className={styles.icons}>
               <a
-                href="https://twitter.com/timelesscoding"
+                href="https://x.com/GoRaivis"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -39,7 +39,7 @@ function Card () {
                 <img src={facebook} alt="Facebook" />
               </a>
               <a
-                href="https://www.instagram.com/codingwithraivis/"
+                href="https://www.instagram.com/GoRaivis/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
