@@ -21,7 +21,7 @@ function Buttons () {
         </a>
 
         <a
-          href="https://www.linkedin.com/in/raivis-gereiss/"
+          href="https://www.linkedin.com/in/raivisg/"
           target="_blank"
           rel="noopener noreferrer"
         >
