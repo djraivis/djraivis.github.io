@@ -17,6 +17,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 6px;
   width: 118px;
   height: 32px;
   background: #ffffff;
@@ -26,6 +27,7 @@
   font-family: 'Inter';
   font-weight: 500;
   font-size: 14px;
+  color: #111827;
   transition-duration: 0.2s;
 }
 
@@ -33,8 +35,8 @@
   opacity: 60%;
 }
 
-button > p {
-  margin: 0 5px;
+.icon {
+  display: block;
 }
 
 .linkedin {
